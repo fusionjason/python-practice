@@ -1,5 +1,7 @@
 # Python Practice
 
+[![Tests](https://github.com/fusionjason/python-practice/actions/workflows/tests.yml/badge.svg)](https://github.com/fusionjason/python-practice/actions/workflows/tests.yml)
+
 My Python learning journey, working toward a software developer career alongside my business background.
 
 ## Lessons
