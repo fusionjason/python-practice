@@ -27,16 +27,16 @@ A menu-driven assignment tracker, rebuilt several times as I picked up new skill
 
 ## Testing
 
-Automated tests for the SQLite tracker are in `test_basic.py` and run with [pytest](https://pytest.org).
+The automated tests for the SQLite tracker are in `test_assignment_tracker.py`. `test_warmups.py` holds my first pytest exercises on small helper functions. Both run with [pytest](https://pytest.org).
 
 **Run them:**
 
 ```
 pip install pytest
-pytest test_basic.py
+pytest
 ```
 
-Expected result: `12 passed` (3 warm-up tests on small helper functions, plus 9 database tests).
+Expected result: `12 passed` (9 database tests plus 3 warm-up tests). To run only the database tests, use `pytest test_assignment_tracker.py` (`9 passed`).
 
 **What is tested:**
 
